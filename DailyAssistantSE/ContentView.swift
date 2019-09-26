@@ -17,10 +17,10 @@ struct ContentView: View {
                         HStack {
                             Image(systemName: "cloud")
                                 .frame(width: 40, height: 40)
-                                .foregroundColor(.red)
-                                .background(Color.blue)
+                                .foregroundColor(.yellow)
+                                .background(Color.pink)
                             .cornerRadius(20)
-                            Text("Item \(item)")
+                            Text("Reminder \(item)")
                         }
                     }
                 }
