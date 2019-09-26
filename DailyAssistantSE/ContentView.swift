@@ -10,7 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                ForEach(1...7, id: \.self) { item in
+                    NavigationLink(destination: Text("Today's To-Do")) {
+                        HStack {
+                            Image(systemName: "cloud")
+                                .frame(width: 40, height: 40)
+                                .foregroundColor(.red)
+                                .background(Color.blue)
+                            .cornerRadius(20)
+                            Text("Item \(item)")
+                        }
+                    }
+                }
+            }
+        .navigationBarTitle("To-Dos")
+        }
     }
 }
 
