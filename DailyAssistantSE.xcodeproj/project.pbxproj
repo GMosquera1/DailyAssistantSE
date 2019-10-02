@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05608204234522280043E313 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608203234522280043E313 /* SwiftUIView.swift */; };
+		05608206234522430043E313 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608205234522430043E313 /* DetailView.swift */; };
 		05AAF7CF233CFF3F00F12D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AAF7CE233CFF3F00F12D80 /* AppDelegate.swift */; };
 		05AAF7D1233CFF3F00F12D80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AAF7D0233CFF3F00F12D80 /* SceneDelegate.swift */; };
 		05AAF7D3233CFF3F00F12D80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AAF7D2233CFF3F00F12D80 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05608203234522280043E313 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		05608205234522430043E313 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		05AAF7CB233CFF3F00F12D80 /* DailyAssistantSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAssistantSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AAF7CE233CFF3F00F12D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05AAF7D0233CFF3F00F12D80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				05AAF7CE233CFF3F00F12D80 /* AppDelegate.swift */,
 				05AAF7D0233CFF3F00F12D80 /* SceneDelegate.swift */,
 				05AAF7D2233CFF3F00F12D80 /* ContentView.swift */,
+				05608205234522430043E313 /* DetailView.swift */,
+				05608203234522280043E313 /* SwiftUIView.swift */,
 				05AAF7D4233CFF4300F12D80 /* Assets.xcassets */,
 				05AAF7D9233CFF4300F12D80 /* LaunchScreen.storyboard */,
 				05AAF7DC233CFF4300F12D80 /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				05AAF7CF233CFF3F00F12D80 /* AppDelegate.swift in Sources */,
 				05AAF7D1233CFF3F00F12D80 /* SceneDelegate.swift in Sources */,
+				05608204234522280043E313 /* SwiftUIView.swift in Sources */,
+				05608206234522430043E313 /* DetailView.swift in Sources */,
 				05AAF7D3233CFF3F00F12D80 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

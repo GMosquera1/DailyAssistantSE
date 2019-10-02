@@ -12,8 +12,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(1...7, id: \.self) { item in
+                ForEach(1...10, id: \.self) { item in
                     NavigationLink(destination: Text("Today's To-Do")) {
+                        ZStack {
                         HStack {
                             Image(systemName: "cloud")
                                 .frame(width: 40, height: 40)
@@ -23,9 +24,10 @@ struct ContentView: View {
                             Text("Reminder \(item)")
                         }
                     }
+                    }
                 }
             }
-        .navigationBarTitle("To-Dos")
+        .navigationBarTitle("Today's Agenda")
         }
     }
 }
